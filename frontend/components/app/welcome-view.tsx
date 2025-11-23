@@ -1,5 +1,7 @@
 import { Button } from '@/components/livekit/button';
 
+
+
 function WelcomeImage() {
   return (
     <svg
@@ -31,6 +33,10 @@ export const WelcomeView = ({
   return (
     <div ref={ref}>
       <section className="bg-background flex flex-col items-center justify-center text-center">
+        {/* ⭐ Your new heading */}
+        <h1 className="text-4xl font-bold mb-4 text-foreground">
+          BrewBerry Café
+        </h1>
         <WelcomeImage />
 
         <p className="text-foreground max-w-prose pt-1 leading-6 font-medium">
