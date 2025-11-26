@@ -35,7 +35,7 @@ export const WelcomeView = ({
       <section className="bg-background flex flex-col items-center justify-center text-center">
         {/* ⭐ Your new heading */}
         <h1 className="text-4xl font-bold mb-4 text-foreground">
-          Teach the Tutor
+          SDR Agent
         </h1>
         <WelcomeImage />
 
