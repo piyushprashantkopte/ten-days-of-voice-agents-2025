@@ -12,7 +12,7 @@ const VIEW_MOTION_PROPS = {
     visible: {
       opacity: 1,
       transition: {
-        ease: 'easeIn',
+        ease: "easeInOut" as const,
         duration: 0.5,
         delay: 0.8,
       },
@@ -20,7 +20,7 @@ const VIEW_MOTION_PROPS = {
     hidden: {
       opacity: 0,
       transition: {
-        ease: 'easeIn',
+        ease: "easeInOut" as const,
         duration: 0.5,
         delay: 0,
       },
@@ -46,7 +46,7 @@ export function PreConnectMessage({ className, messages = [] }: PreConnectMessag
           className={cn('pointer-events-none text-center', className)}
         >
           <ShimmerText className="text-sm font-semibold">
-            Agent is listening, ask it a question
+            Host  is listening, show your talent
           </ShimmerText>
         </MotionMessage>
       )}
